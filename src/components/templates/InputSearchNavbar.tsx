@@ -32,7 +32,7 @@ const InputSearchNav = () => {
         isOpen
           ? "w-[15rem] sm:w-[20rem] justify-end gap-2"
           : "size-14 sm:size-16 justify-center"
-      } p-4 py-2 rounded-full bg-second/40 flex items-center overflow-hidden`}
+      } p-4 py-2 rounded-full bg-second flex items-center overflow-hidden`}
     >
       <input
         onClick={(e) => e.stopPropagation()}

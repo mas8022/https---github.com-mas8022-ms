@@ -42,11 +42,12 @@ const ProfileBtn = () => {
         <>
           <div className="cursor-pointer relative">
             <div onClick={() => setSlideProfile((p) => !p)}>
-                <div className="flex p-[10px] rounded-full bg-second/40 items-center justify-center cursor-pointer">  <FaUser
-                className="size-9 cursor-pointer stroke-white"
-                style={{ strokeWidth: 20, fill: "none" }}
-              /></div>
-            
+              <div className="flex p-[10px] rounded-full bg-second/40 items-center justify-center cursor-pointer">
+                <FaUser
+                  className="size-9 cursor-pointer stroke-white"
+                  style={{ strokeWidth: 20, fill: "none" }}
+                />
+              </div>
             </div>
             <div
               className={`z-[10000] flex flex-col gap-10 items-center p-10 absolute top-24 -left-20 w-[30rem] bg-first dark:bg-[#111827] border-y-2 border-second rounded-3xl dark:shadow-2xl transition-all duration-300 ${
@@ -142,7 +143,7 @@ const ProfileBtn = () => {
         <>
           <Link
             href={"/login"}
-            className={`flex p-[9px] rounded-full bg-second/40 items-center justify-center cursor-pointer ${
+            className={`flex p-[9px] rounded-full bg-second items-center justify-center cursor-pointer ${
               isPending ? "" : "pointer-events-none"
             }`}
           >

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/templates/Navbar";
+import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +17,10 @@ export default function RootLayout({
     <html lang="fa" dir="rtl">
       <body>
         <Navbar />
+
         {children}
+
+        <Toaster position="top-center" reverseOrder={false} />
       </body>
     </html>
   );

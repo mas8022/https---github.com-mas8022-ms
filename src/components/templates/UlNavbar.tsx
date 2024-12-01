@@ -8,7 +8,7 @@ const UlNavbar = () => {
     <>
 
     {/* ul in desktop screen */}
-      <ul className="hidden sm:flex h-14 px-10 items-center gap-10 child:font-bold child:text-2xl child:text-white backdrop-blur-2xl rounded-3xl">
+      <ul className="hidden sm:flex h-14 px-10 items-center gap-10 child:font-bold child:text-2xl child:text-white bg-second rounded-3xl">
         <li>خانه</li>
         <li>محصولات</li>
         <li>درباره ما</li>
